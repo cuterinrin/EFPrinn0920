@@ -6,9 +6,8 @@ int main(void)
  printf("input a number :");
  scanf("%c", &c);
  
- i= c -'0';
  
- printf("Ther input number is %i\n", i);
+ printf("The next chracter of %c (%i) is %c (%i)\n", c, c, c+1, c+1 );
  
  return 0;
 }
